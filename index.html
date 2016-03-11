@@ -1,64 +1,71 @@
+<!--
+	Author: Espineli, Jared A.
+	CMSC 128 AB-2L
+	Programming Assignment 002: Programming a Simple Bionformatics Library
+-->
+
 <!DOCTYPE html>
 	<head> 
-		<title>Bioinformatics Library</title>
+		<title>Mini Bioinformatics Library</title>
 		<meta charset="utf-8"/> 
 	</head>
-	<body>
-		<div id="function1">
-			<h2>Get Hamming Distance</h2>
+
+	<body background="bg.jpg">
+	<script type="text/javascript" src="index.js"></script>
+		<div id="function_1">
+			<h3><font color = "red" face="arial">Hamming Distance</font></h3>
 			<form>
 				<input type="text" name="hammingDistance1" id="hammingDistance1" required/>
 				<input type="text" name="hammingDistance2" id="hammingDistance2" required/>
-				<input type="button" value="Submit" onclick="getHammingDistance()"/>
+				<input type="button" value="Enter" onclick="getHammingDistance()"/>
 			</form>
 			<div id="hammingDistanceResult"></div>
 		</div>
-		<div id="function2">
-			<h2>Count Substring Pattern</h2>
+		<div id="function_2">
+			<h3><font color = "red" face="arial">Count Substring Pattern</font></h3>
 			<form>
 				<input type="text" name="substrPattern1" id="substrPattern1" required/>
 				<input type="text" name="substrPattern2" id="substrPattern2" required/>
-				<input type="button" value="Submit" onclick="countSubstrPattern()"/>
+				<input type="button" value="Enter" onclick="countSubstrPattern()"/>
 			</form>
 			<div id="substrPatternResult"></div>
 		</div>
-		<div id="function3">
-			<h2>Is String Valid</h2>
+		<div id="function_3">
+			<h3><font color = "red" face="arial">String Validity</font></h3>
 			<form>
 				<input type="text" name="validString1" id="validString1" required/>
 				<input type="text" name="validString2" id="validString2" required/>
-				<input type="button" value="Submit" onclick="isValidString()"/>
+				<input type="button" value="Enter" onclick="isValidString()"/>
 			</form>
 			<div id="validStringResult"></div>
 		</div>
-		<div id="function4">
-			<h2>Get Skew</h2>
+		<div id="function_4">
+			<h3><font color = "red" face="arial">Get Skew</font></h3>
 			<form>
 				<input type="text" name="getSkew1" id="getSkew1" required/>
 				<input type="text" name="getSkew2" id="getSkew2" required/>
-				<input type="button" value="Submit" onclick="getSkew()"/>
+				<input type="button" value="Enter" onclick="getSkew()"/>
 			</form>
 			<div id="getSkewResult"></div>
 		</div>
-		<div id="function5">
-			<h2>Get Maximum Skew</h2>
+		<div id="function_5">
+			<h3><font color = "red" face="arial">Maximum Skew</font></h3>
 			<form>
 				<input type="text" name="getMaxSkew1" id="getMaxSkew1" required/>
 				<input type="text" name="getMaxSkew2" id="getMaxSkew2" required/>
-				<input type="button" value="Submit" onclick="getMaxSkewN()"/>
+				<input type="button" value="Enter" onclick="getMaxSkewN()"/>
 			</form>
 			<div id="getMaxSkewResult"></div>
 		</div>
-		<div id="function6">
-			<h2>Get Minimum Skew</h2>
+		<div id="function_6">
+			<h3><font color = "red" face="arial">Minimum Skew</font></h3>
 			<form>
 				<input type="text" name="getMinSkew1" id="getMinSkew1" required/>
 				<input type="text" name="getMinSkew2" id="getMinSkew2" required/>
-				<input type="button" value="Submit" onclick="getMinSkewN()"/>
+				<input type="button" value="Enter" onclick="getMinSkewN()"/>
 			</form>
 			<div id="getMinSkewResult"></div>
 		</div>
 		
-		<script type="text/javascript" src="index.js"></script>
 	</body>
 </html>
